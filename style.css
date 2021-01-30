@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ p{
+    color: lightgray;
+ }
+ h1,h2,h3,h4,h5{
+    color: white;
+    margin-bottom: 10px;
+ }
+ div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: transparent;
+    font-size: 20px;
+ }
+ .content {
+    /*position: absolute;*/
+    margin-top: -100vh;
+ }
+ ul {
+    list-style-type: none;
+ }
+ .parent {
+    display: flex;
+    /*height: 100vh;*/
+    width: 100%;
+    background-color: #20232f;
+    position: sticky;
+ }
+ .left-part {
+    width: 20%;
+    display: flex;
+    padding: 45px 20px;
+ }
+ div.nav {
+    width: 3px;
+    background-color: transparent;
+    margin-right: 10px;
+ }
+ .nav>span {
+    width: 3px;
+    background-color: crimson;
+    display: inline-flex;
+    transition: transform 300ms ease-in-out;
+    height: 33.33333%;
+ }
+ .right-part {
+    width: 80%;
+    overflow-y: scroll;
+ }
+ .sec {
+    transition: transform 300ms ease-in-out;
+ }
+ .sec {
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10%;
+ }
+ .main {
+    display: flex;
+    flex-direction: column;
+ }
+ .main>li {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .checkPoint p{
+    font-size: 15px;
+ }
